@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+h1{
+    margin-bottom: 30px;
+}
+img{
+    border-radius: 50%;
+    position:absolute;
+    top: 10%;
+    left: 1%;
+}
+main{
+    background-color: #d4d0d0;
+    padding: 40px 20px;
+}
+footer{
+    background-color: #BFBFBF;
+    padding: 10px 20px;
+}
+
+main a{
+    text-decoration: none;
+}
+
+footer p{
+    padding-bottom: 10px;
+}
+
+.header{
+    height: 250px;
+    background-image: url(image3.jpg);
+    background-position-y: center;
+    filter: blur(2px);
+}
