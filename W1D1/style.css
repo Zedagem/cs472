@@ -4,7 +4,7 @@
 h1{
     margin-bottom: 30px;
 }
-img{
+header img{
     border-radius: 50%;
     position:absolute;
     top: 10%;
@@ -31,5 +31,8 @@ footer p{
     height: 250px;
     background-image: url(image3.jpg);
     background-position-y: center;
-    filter: blur(2px);
+    filter: blur(1px);
+}
+#validator{
+    margin-left: 80%;
 }
