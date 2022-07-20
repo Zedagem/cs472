@@ -54,17 +54,18 @@ i{
 .text-field{
     display: inline;
     height: 40px;
-    width: 70%;
+    width: 75%;
     border-radius:25px;
     border-style: none;
     padding-left: 20px;
     background-color: rgba(54, 54, 54, 0.484);
+    color: white;
 }
 .btn{
     height: 40px;
     width:20% ;
     border-radius: 25px;
-    margin-left: -50px;
+    margin-left: -21%;
     background-color: #D78B57;
     border-style: none;
     border-color: none;
