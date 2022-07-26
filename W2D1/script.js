@@ -6,10 +6,10 @@ h2.addClass('bgGrey');
 $('h1').after(h2)
 
 // create an image inside div
-// let image = document.createElement('img');
-// image.setAttribute('src', 'camera.jpeg')
-// image.setAttribute('width', '100px')
-let image = $('<img>').attr('src','./camera.jpeg').css('width','100px')
+let image = document.createElement('img');
+image.setAttribute('src', 'camera.jpeg')
+image.setAttribute('width', '100px')
+// let image = $('<img>').attr('src','./camera.jpeg').css('width','100px')
 
 $('#div1').append(image);
 // changing to list
@@ -33,6 +33,7 @@ $('#toList').click(function () {
 $('img').mouseover(function(){
     $('img').toggleClass('inlarge');
 })
+
 $('#delete').click( function(){
     let length = $('td').length;
     $('td')[length-1].remove();
