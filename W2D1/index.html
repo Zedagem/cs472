@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .red{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 id="h1">Heading 1</h1>
+    Name
+    <input type="text" id="inputField"> -->
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+   
+
+    <div style="margin-top:10px ;">
+        <input type="text" id="first">
+        <button>Swap</button>
+        <input type="text" id="second">
+    </div>
+
+    <script>
+        let select = document.createElement('select'); // <select>
+        // let select = document.createElement('select');
+        $('li').each(function(idx,ele){
+            let option = document.createElement('option'); //<option> 
+            option.innerText = ele.innerText;
+            select.append(option);
+        });
+        $('ul').replaceWith(select);
+
+        $('button').click(swap) ;
+
+        function swap(){
+            let text1 = $('#first').val();
+            let text2 = $('#second').val();
+            $('#first').val(text2);
+            $('#second').val(text1);
+        }
+        
+        // let input = $('input')
+        // // input.attr("type","radio")
+        // input.attr("placeholder","Full Name")
+        // $('#h1').mouseover(()=> $('#h1').toggleClass('red'))
+    </script>
+</body>
+</html>
