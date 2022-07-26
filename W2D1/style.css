@@ -1,0 +1,43 @@
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.bgGrey {
+    background-color: gray;
+}
+
+.inlarge {
+    width: 150px;
+}
+
+.hide {
+    display: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    gap: 20px;
+
+}
+.border{
+    border: 1px solid black;
+}
+#div6>table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+#div6 td,th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+#div6 tr:nth-child(even) {
+background-color: #dddddd;
+}
